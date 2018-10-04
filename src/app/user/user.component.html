@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+  </head>
+  <body>
+ 
+  
+  <header>
+    <div class ="container">
+      <div id="branding">
+          
+        <h1><span class="highlight">TechM</span> Web Design</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a [routerLink]="['']" >Home</a></li>
+          <li><a [routerLink]="['about']">About</a></li>
+          <li><a class="current" [routerLink]="['user']" >Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section id="newsletter">
+    <div class ="container">
+      <h2>Subscribe to our news letter</h2>
+      <form>
+        <input type="email" placeholder="Enter email">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+
+  </section>
+
+  <section id="main">
+    <div class="container">
+    <article id="main-col">
+        <h1 class="page-title">Services</h1>
+        <ul id ="services">
+<li>
+    <h3>Website Design</h3>
+    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+    <p>Pricing: $1,000 -$3,000</p>
+</li>
+
+<li>
+        <h3>Website Maintainence</h3>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+        <p>Pricing: $250 per month</p>
+    </li>
+
+    <li>
+            <h3>Website Hosting</h3>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+            <p>Pricing: $35 per month</p>
+        </li>
+
+        </ul>
+    </article>
+    <aside id="sidebar">
+        <div class="dark">
+        <h3>Get a quote </h3>
+       <form class="quote">
+           <div>
+               <label>Name
+               </label><br>
+               <input type="text" placeholder="Name">
+               
+           </div>
+
+           <div>
+                <label>email</label><br>
+                <input type="text" placeholder="Email Address">
+                
+            </div>
+
+            <div>
+                    <label>Message</label><br>
+                    <input type="text" placeholder="Message">
+                    
+                </div>
+<button class="button_1" type="submit">Send</button>
+       </form>
+    </div>
+    </aside>
+    </div>
+  </section>
+  <footer>
+    <p>TechM Web Design, Copyright &copy; 2017</p>
+  </footer>
+  </body>
+  </html>
